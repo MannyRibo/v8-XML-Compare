@@ -12,6 +12,9 @@
   <string name="bugreport_dump_start_notification_summary">This takes several minutes.</string>
   <string name="bugreport_dump_start_notification_title">Creating bug report…</string>
   <string name="bugreport_feedback_from">From: %s</string>
+  <string name="bugreport_tool_log">Create bug report</string>
+  <string name="bugreport_tool_log_toast">Log saved to %s</string>
+  <string name="bugreport_tool_log_toast_generate_bugreport">Creating bug report (takes about a minute)</string>
   <string name="cta_cancel">Cancel</string>
   <string name="cta_confirm">OK</string>
   <string name="cta_dialog_content">This app needs to connect to the internet to work normally.</string>
@@ -103,6 +106,7 @@
   <string name="michat_attach_smiley">Emoticon</string>
   <string name="michat_attach_take_photo">Camera</string>
   <string name="michat_back_to_detail">Go back to chat</string>
+  <string name="michat_cant_join_artifical">网络出现异常，无法连接人工客服</string>
   <string name="michat_check_network">Check network settings</string>
   <string name="michat_close_text">Chat ended</string>
   <string name="michat_comment_net_error">"Couldn't connect to the network, try again later"</string>
@@ -123,6 +127,7 @@
   <string name="michat_invation_invite_fail">Sorry, our support workers are busy now. Try again later.</string>
   <string name="michat_invation_invite_full">Sorry, our support workers are all busy now. Try again later.</string>
   <string name="michat_kefu_welcome">Welcome to Xiaomi online support!</string>
+  <string name="michat_lose_artifical">网络出现异常，您将离开人工客服会话</string>
   <string name="michat_menu_copy_text">Copy</string>
   <string name="michat_mesage_resend_error_network">"Couldn't connect to the network"</string>
   <string name="michat_mesage_send_error_network">"Couldn't send, check network connection"</string>
@@ -142,6 +147,7 @@
   <string name="michat_pull_to_refresh_pull_label">Pull down to view history</string>
   <string name="michat_pull_to_refresh_refreshing_label">Loading history…</string>
   <string name="michat_pull_to_refresh_release_label">Release to view history</string>
+  <string name="michat_queue_pos_update">您前面还有%1$d个人在排队，请稍等…</string>
   <string name="michat_return_to_outside">Exit</string>
   <string name="michat_service_unavailiable">"Couldn't get info, try again later"</string>
   <string name="michat_skillset_business_type_title">Select service</string>
@@ -154,6 +160,11 @@
   <string name="michat_wait_for_a_moment">Just a sec, help is on the way!</string>
   <string name="michat_webview_title">View details</string>
   <string name="min_error">Your %1$s should be longer.</string>
+  <string name="modem_tool_log">Capture modem logs</string>
+  <string name="modem_tool_log_start">Start</string>
+  <string name="modem_tool_log_start_toast">"Start to dump modem's log to %s"</string>
+  <string name="modem_tool_log_stop">Stop</string>
+  <string name="modem_tool_log_stop_toast">"Stop to dump modem's log from %s"</string>
   <string name="multi_graph_more">Total items: %d</string>
   <string name="network_err">"Can't connect to the network."</string>
   <string name="network_errorbtntip_custom">Try again</string>

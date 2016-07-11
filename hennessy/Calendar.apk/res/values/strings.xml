@@ -191,6 +191,7 @@
   <string name="every_year_month_of_day">%1$s%2$s日</string>
   <string name="exist_calendar">已订阅</string>
   <string name="festival_detail_title">Festival</string>
+  <string name="force_touch_title_add_new_event">Add New Event</string>
   <string name="fortune_birthday">生日</string>
   <string name="fortune_card_caiwei">财位：</string>
   <string name="fortune_card_set_bazi">设置生辰八字</string>
@@ -226,7 +227,7 @@
   <string name="insert_event_dialog_btn_positive">Yes</string>
   <string name="insert_event_dialog_message">Add this event to calendar?</string>
   <string name="insert_event_dialog_title">Attention</string>
-  <string name="insert_event_toast_add_failed">Add failed</string>
+  <string name="insert_event_toast_add_failed">"Couldn't add"</string>
   <string name="insert_event_toast_add_success">Event created</string>
   <string name="joke_card_icon_text">%1$s 人笑过</string>
   <string name="jump_date">Jump</string>
@@ -306,7 +307,7 @@
   <string name="preferences_default_reminder_title">Default reminder time</string>
   <string name="preferences_general_title">Calendar view setting</string>
   <string name="preferences_hide_declined_title">Hide declined events</string>
-  <string name="preferences_history_events">Show history events</string>
+  <string name="preferences_history_events">Show historic events</string>
   <string name="preferences_holidays">Show holidays</string>
   <string name="preferences_home_tz_default">America/Los_Angeles</string>
   <string name="preferences_home_tz_title">Home time zone</string>
@@ -314,7 +315,7 @@
   <string name="preferences_notification_ringtone_title">Sound</string>
   <string name="preferences_reminder_title">Notification &amp; reminders</string>
   <string name="preferences_show_week_num_title">Show week number</string>
-  <string name="preferences_solar_terms">Show solar days</string>
+  <string name="preferences_solar_terms">Show solar terms</string>
   <string name="preferences_title">Calendar</string>
   <string name="preferences_use_home_tz_descrip">Displays calendars and event times in your home time zone when traveling</string>
   <string name="preferences_use_home_tz_title">Use home time zone</string>
@@ -371,7 +372,6 @@
   <string name="setting_holiday">Holidays</string>
   <string name="setting_others">Additional</string>
   <string name="setting_sms_import">导入短信事件</string>
-  <string name="setting_wifi_mode">内容仅在WLAN下同步大图</string>
   <string name="settings_calendar">Calendar</string>
   <string name="show_day_view">Show day</string>
   <string name="show_newer_events">Touch to view events after %1$s</string>

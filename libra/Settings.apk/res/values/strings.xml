@@ -619,10 +619,10 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="button_disconnect_network">Disconnect from network</string>
   <string name="button_light_timeout">Keep button lights on</string>
   <string name="button_text_accept">Accept</string>
-  <string name="button_text_accept_timer">Accept(%d)</string>
+  <string name="button_text_accept_timer">Accept (%d)</string>
   <string name="button_text_login">Sign in</string>
   <string name="button_text_next_step">Next</string>
-  <string name="button_text_next_step_timer">Next step(%d)</string>
+  <string name="button_text_next_step_timer">Next (%d)</string>
   <string name="button_text_reboot_now">Reboot</string>
   <string name="button_text_reject">Reject</string>
   <string name="cache_header_label">Cache</string>
@@ -634,7 +634,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="call_manager_enable_title">Enable Call Manager</string>
   <string name="call_manager_summary">%1$s</string>
   <string name="call_manager_title">Call Manager</string>
-  <string name="call_settings_primary_user_only">Please change call settings in default space</string>
+  <string name="call_settings_primary_user_only">Change call settings in First space</string>
   <string name="call_settings_summary">Set up voicemail, call forwarding, call waiting, caller ID</string>
   <string name="call_settings_title">Call settings</string>
   <string name="calls_title">Calls</string>
@@ -1255,6 +1255,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="filter_apps_third_party">Downloaded</string>
   <string name="filter_dlg_title">Choose filter options</string>
   <string name="fingerprint_and_password_entrance_title">Screen lock &amp; fingerprint</string>
+  <string name="fingerprint_for_keyguard_disabled">Fingerprint has been disabled by security settings.</string>
   <string name="fingerprint_identify_input_password_msg">Enter password</string>
   <string name="fingerprint_identify_msg">Reading fingerprint…</string>
   <string name="fingerprint_identify_try_again_msg">"Couldn't read fingerprint, try again"</string>
@@ -1477,6 +1478,14 @@ Some apps may not work until updated by their developers."</string>
   <string name="keyboard_layout_picker_title">Keyboard layouts</string>
   <string name="keyboard_settings_category">Keyboard &amp; input methods</string>
   <string name="keyboard_settings_title">Android keyboard</string>
+  <string name="keyguard_left_function_chooser_hint_text">Left shortcut changed to %s</string>
+  <string name="keyguard_left_function_chooser_title">App</string>
+  <string name="keyguard_left_function_title">Left</string>
+  <string name="keyguard_right_function_chooser_hint_text">Right shortcut changed to %s</string>
+  <string name="keyguard_right_function_chooser_title">App</string>
+  <string name="keyguard_right_function_title">Right</string>
+  <string name="keyguard_shortcut_summary">Set shortcuts for 2 apps on the Lock screen</string>
+  <string name="keyguard_shortcut_title">Lock screen shortcuts</string>
   <string name="keywords_accounts">account</string>
   <string name="keywords_app">RAM</string>
   <string name="keywords_battery">power</string>
@@ -1625,7 +1634,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="lock_settings_common_title">Lock settings</string>
   <string name="lock_settings_picker_settings">Set screen lock</string>
   <string name="lock_settings_picker_title">Choose screen lock</string>
-  <string name="lock_settings_title">Screen security</string>
+  <string name="lock_settings_title">Device security</string>
   <string name="lock_settings_with_fingerprint">Lock screen &amp; fingerprint</string>
   <string name="lock_setup">Setup is complete.</string>
   <string name="lock_sounds_enable_title">Screen lock sound</string>
@@ -1640,13 +1649,22 @@ Some apps may not work until updated by their developers."</string>
   <string name="lockpassword_choose_your_pin_header_second_space">"Set PIN 
  for Second space"</string>
   <string name="lockpassword_confirm_for_second_user">Confirm your Second space password</string>
-  <string name="lockpassword_confirm_passwords_dont_match">"Passwords don't match"</string>
+  <string name="lockpassword_confirm_passwords_dont_match">Passwords don’t match</string>
   <string name="lockpassword_confirm_pins_dont_match">"PINs don't match"</string>
+  <string name="lockpassword_confirm_your_lock_password_header">Confirm your password</string>
+  <string name="lockpassword_confirm_your_lock_pattern_header">Confirm your pattern</string>
+  <string name="lockpassword_confirm_your_password_generic">Enter your device password to continue.</string>
   <string name="lockpassword_confirm_your_password_header">Confirm your password</string>
+  <string name="lockpassword_confirm_your_pattern_generic">Use your device pattern to continue.</string>
   <string name="lockpassword_confirm_your_pattern_header">Confirm your pattern</string>
+  <string name="lockpassword_confirm_your_pin_generic">Enter your device PIN to continue.</string>
   <string name="lockpassword_confirm_your_pin_header">Confirm your PIN</string>
+  <string name="lockpassword_confirm_your_private_password_header">Confirm your password</string>
+  <string name="lockpassword_confirm_your_private_pattern_header">Confirm your pattern</string>
   <string name="lockpassword_continue_label">Continue</string>
   <string name="lockpassword_illegal_character">Password contains an illegal character.</string>
+  <string name="lockpassword_invalid_password">Wrong password</string>
+  <string name="lockpassword_invalid_pin">Wrong PIN</string>
   <string name="lockpassword_ok_label">OK</string>
   <string name="lockpassword_password_recently_used">"Device administrator doesn't allow using a recent password."</string>
   <string name="lockpassword_password_requires_alpha">Password must contain at least one letter.</string>
@@ -1675,7 +1693,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="lockpattern_need_to_unlock_wrong_footer"/>
   <string name="lockpattern_pattern_confirmed_header">Your new unlock pattern:</string>
   <string name="lockpattern_pattern_entered_header">Pattern recorded</string>
-  <string name="lockpattern_pattern_same_with_owner">Should be different from Default space password</string>
+  <string name="lockpattern_pattern_same_with_owner">Should be different from First space password</string>
   <string name="lockpattern_pattern_same_with_security_space">Should be different from Second space password</string>
   <string name="lockpattern_recording_incorrect_too_short">Connect at least %d dots. Try again.</string>
   <string name="lockpattern_recording_inprogress">Release finger when done</string>
@@ -1683,7 +1701,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="lockpattern_recording_intro_header">Draw an unlock pattern:</string>
   <string name="lockpattern_recording_intro_header_second_space">Draw an unlock pattern for Second space:</string>
   <string name="lockpattern_restart_button_text">Redraw</string>
-  <string name="lockpattern_retry_button_text">Retry</string>
+  <string name="lockpattern_retry_button_text">Clear</string>
   <string name="lockpattern_settings_change_lock_pattern">Change unlock pattern</string>
   <string name="lockpattern_settings_choose_lock_pattern">Set unlock pattern</string>
   <string name="lockpattern_settings_enable_power_button_instantly_locks">Power button locks screen</string>
@@ -1694,6 +1712,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="lockpattern_settings_help_how_to_record">How to draw an unlock pattern</string>
   <string name="lockpattern_settings_power_button_instantly_locks_summary">Except when kept unlocked by %1$s</string>
   <string name="lockpattern_settings_title">Unlock pattern</string>
+  <string name="lockpattern_too_many_failed_confirmation_attempts">Too many incorrect attempts. Try again in %d seconds.</string>
   <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Try again in %d seconds.</string>
   <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many incorrect attempts!</string>
   <string name="lockpattern_tutorial_cancel_label">Cancel</string>
@@ -2220,7 +2239,7 @@ Select your operating system:"</string>
   <string name="path_tether_settings_title_usb">Settings/More/USB tethering</string>
   <string name="path_theme_settings">Settings/Themes</string>
   <string name="path_toggle_position_settings">Settings/Notifications &amp; status bar/Toggle positions</string>
-  <string name="path_touch_assistant_settings">Settings/Additional settings/Touch assistant</string>
+  <string name="path_touch_assistant_settings">Settings/Additional settings/Floating ball</string>
   <string name="path_touch_sensitive_title">Settings/Display/Glove mode</string>
   <string name="path_trusted_credentials">Settings/Additional settings/System Security/Trusted credentials</string>
   <string name="path_tts_settings_title">Settings/Additional settings/Language &amp; input/Text-to-speech output</string>
@@ -2566,7 +2585,7 @@ Select your operating system:"</string>
   <string name="restriction_settings_title">Restrictions</string>
   <string name="restriction_wifi_config_summary">Allow modification of WLAN and Mobile settings</string>
   <string name="restriction_wifi_config_title">WLAN and Mobile</string>
-  <string name="retry">Retry</string>
+  <string name="retry">Try again</string>
   <string name="ring_volume_option_title">Ring volume</string>
   <string name="ring_volume_title">Ringer volume</string>
   <string name="ringtone_mute">None</string>
@@ -2847,7 +2866,7 @@ To use screen pinning:
   <string name="search_tether_settings_title_usb">USB tethering</string>
   <string name="search_theme_settings">Themes</string>
   <string name="search_toggle_position">Toggle positions</string>
-  <string name="search_touch_assistant">Touch assistant</string>
+  <string name="search_touch_assistant">Floating ball</string>
   <string name="search_touch_sensitive_title">Glove mode</string>
   <string name="search_trusted_credentials">Trusted credentials</string>
   <string name="search_tts_settings_title">Text-to-speech output</string>
@@ -2885,11 +2904,12 @@ To use screen pinning:
   <string name="search_xiaomi_account">Mi Account</string>
   <string name="search_xspace">XSpace</string>
   <string name="search_zen_mode_option_miui_silent">Silent mode</string>
-  <string name="second_space">Second Space</string>
+  <string name="second_space">Second space</string>
   <string name="secure_keyguard_business_title">&gt;Set screen lock</string>
   <string name="secure_lock_encryption_warning">"Because you've turned on an accessibility service, your device won’t use your screen lock to enhance data encryption."</string>
   <string name="security_enable_widgets_disabled_summary">Disabled by administrator</string>
   <string name="security_enable_widgets_title">Enable widgets</string>
+  <string name="security_encryption_title">Encrypt device using lock screen password</string>
   <string name="security_keyguard_category_name">Lock screen</string>
   <string name="security_password_category_name">Screen lock</string>
   <string name="security_passwords_title">Passwords</string>
@@ -3133,7 +3153,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_notification_led">Notification light</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
-  <string name="status_bar_settings_notification_sound_vibrate">Sound &amp; vibration</string>
+  <string name="status_bar_settings_notification_sound">Sound</string>
+  <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
   <string name="status_bar_settings_show_floating_notification">Floating notifications</string>
@@ -3254,7 +3275,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tether_settings_title_usb_bluetooth">Tethering</string>
   <string name="tether_settings_title_wifi">Portable hotspot</string>
   <string name="tethering_help_button_text">Help</string>
-  <string name="tethering_settings_not_available">Please change tethering settings in default space</string>
+  <string name="tethering_settings_not_available">Change tethering settings in First space</string>
   <string name="theme_settings_title">Themes</string>
   <string name="time_picker_title">Time</string>
   <string name="time_zone_auto_stub">Select Time Zone</string>
@@ -3274,7 +3295,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="toast_need_login">Sign in to your Mi Account</string>
   <string name="total_size">%s total</string>
   <string name="total_size_label">Total</string>
-  <string name="touch_assistant">Shortcut menu</string>
+  <string name="touch_assistant">Quick ball</string>
   <string name="touch_sensitive_summary">Make screen extra responsive to pressure</string>
   <string name="touch_sensitive_title">Glove mode</string>
   <string name="touch_sensitive_turn_off_cancel">Cancel</string>
@@ -3365,9 +3386,9 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="uninstall_dlg_msg">Uninstalling will remove all app data.</string>
   <string name="uninstall_dlg_title">Uninstall now?</string>
   <string name="uninstall_text">Uninstall</string>
-  <string name="uninstall_with_xspace_app_dlg_msg">Corresponding cloned apps will be removed together with app data.</string>
-  <string name="uninstall_xspace_app_dlg_msg">Uninstalling cloned app will remove all app data.</string>
-  <string name="uninstall_xspace_app_dlg_title">Uninstall cloned app?</string>
+  <string name="uninstall_with_xspace_app_dlg_msg">Corresponding dual apps will be removed together with app data.</string>
+  <string name="uninstall_xspace_app_dlg_msg">Uninstalling dual app will remove all app data.</string>
+  <string name="uninstall_xspace_app_dlg_title">Uninstall dual app?</string>
   <string name="unknown">Unknown</string>
   <string name="unlock_backup_info_summary">"When Face Unlock can't see you, how do you want to unlock?"</string>
   <string name="unlock_change_lock_password_title">Change unlock password</string>
@@ -3946,9 +3967,9 @@ Allow this for all apps that want to scan?"</string>
   <string name="wifi_setup_back">Back</string>
   <string name="wifi_setup_cancel">Cancel</string>
   <string name="wifi_setup_connect">Connect</string>
-  <string name="wifi_setup_description_connected">Touch &lt;b&gt;Next&lt;/b&gt;" to continue with setup.
+  <string name="wifi_setup_description_connected">Tap &lt;b&gt;Next&lt;/b&gt;" to continue with setup.
 
-Touch "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
+Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_setup_description_connecting">Connecting can take a few minutes…</string>
   <string name="wifi_setup_detail">Network details</string>
   <string name="wifi_setup_eap_not_supported">"You can't configure an EAP WLAN connection during setup. After setup, you can go to Settings &gt; Wireless &amp; networks."</string>
@@ -4106,7 +4127,7 @@ Touch "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="xiaomi_router_available_notif_title">Mi Router available</string>
   <string name="xiaomi_router_notif_summary">Notify me when a Mi Router is available</string>
   <string name="xiaomi_router_notif_title">Mi Router notification</string>
-  <string name="xspace">Cloned apps</string>
+  <string name="xspace">Dual apps</string>
   <string name="yes">Yes</string>
   <string name="yes_all_caps">YES</string>
   <string name="zen_mode_alarm_info">Alarms are always priority interruptions</string>

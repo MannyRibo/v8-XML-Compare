@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="accessibility_airplane_mode">Airplane mode.</string>
+  <string name="accessibility_assistant">Quick ball</string>
   <string name="accessibility_back">Back</string>
   <string name="accessibility_battery_level">Battery %d percent.</string>
   <string name="accessibility_bluetooth_connected">Bluetooth connected.</string>
@@ -125,6 +126,7 @@ If you re-enable data, you may be charged by the operator."</string>
 Use only the supplied charger."</string>
   <string name="kilobyte_per_second">K/s</string>
   <string name="label_view">View</string>
+  <string name="list_delimeter">", "</string>
   <string name="lockscreen_carrier_default">No service</string>
   <string name="long_screenshot_not_support_msg">"Current app doesn't support scrolling screenshots"</string>
   <string name="long_screenshot_out_of_memory_error">Image size is too big</string>
@@ -144,6 +146,10 @@ Use only the supplied charger."</string>
   <string name="media_projection_remember_text">"Don't show again"</string>
   <string name="megabyte_per_second">M/s</string>
   <string name="mount_storage">Yes</string>
+  <string name="nav_guide_cancel">Ignore</string>
+  <string name="nav_guide_message">You can use gestures to hide/show screen button after setting.</string>
+  <string name="nav_guide_ok">Settings</string>
+  <string name="nav_guide_title">Hide screen buttons</string>
   <string name="network_speed_suffix">%1$s%2$s</string>
   <string name="no_notification_tips">No notifications.</string>
   <string name="no_weather_description">Get weather info &gt;</string>
@@ -167,7 +173,7 @@ Use only the supplied charger."</string>
   <string name="notification_otg_trackball_out">Trackball disconnected</string>
   <string name="notification_otg_unknow_in">OTG device connected</string>
   <string name="notification_otg_unknow_out">OTG device disconnected</string>
-  <string name="notification_template_text">" has a notification. Touch to view."</string>
+  <string name="notification_template_text">" has a notification. Tap to view."</string>
   <string name="oldman_airplane_mode_text">airplane</string>
   <string name="oldman_incall_text">incall</string>
   <string name="oldman_status_bar_time_format_12">h:mm</string>
@@ -194,6 +200,11 @@ Use only the supplied charger."</string>
   <string name="screen_pinning_negative">No thanks</string>
   <string name="screen_pinning_positive">Got it</string>
   <string name="screen_pinning_title">Screen is pinned</string>
+  <string name="screenshot_delete">Delete</string>
+  <string name="screenshot_delete_dlg_msg">Are you sure to delete this screenshot?</string>
+  <string name="screenshot_delete_dlg_title">Delete</string>
+  <string name="screenshot_dlg_cancel">Cancel</string>
+  <string name="screenshot_dlg_delete_button">Delete</string>
   <string name="screenshot_edit">Edit</string>
   <string name="screenshot_failed_text">"Can't take screenshot due to limited storage space, or it isn't allowed by the app or your organization."</string>
   <string name="screenshot_long_screenshot">Scroll</string>
@@ -209,7 +220,7 @@ Use only the supplied charger."</string>
   <string name="settings_toggle_position_divider_page">%1$d toggles above this bar are active</string>
   <string name="settings_toggle_position_reset">Reset toggles</string>
   <string name="share">Share</string>
-  <string name="status_bar_clock_date_format">EEEE, d MMMM</string>
+  <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
   <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
   <string name="status_bar_date_format_12">"EEEE
@@ -240,6 +251,7 @@ Slide down to lock"</string>
   <string name="status_bar_settings_signal_meter_disconnected">No internet connection</string>
   <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN connected</string>
   <string name="status_bar_style_settings">Notifications</string>
+  <string name="status_bar_volte_label">HD</string>
   <string name="task_access_locked_app_msg">Turned on app lock</string>
   <string name="title_usb_accessory">USB accessory</string>
   <string name="torch_activity_hint">Hold [icon] to turn on torch at the lock screen</string>
@@ -284,7 +296,6 @@ Slide down to lock"</string>
   <string name="vpn_text_long">Connected to %s. Tap to view details.</string>
   <string name="vpn_title">VPN activated</string>
   <string name="vpn_title_long">Connecting to VPN using %s</string>
-  <string name="weather_description">%1$s | %2$s &gt;</string>
-  <string name="weather_description_no_aqi">%1$s &gt;</string>
+  <string name="weather_description_no_aqi">%1$s</string>
   <string name="weather_publish_time">Updated %1$s</string>
 </resources>

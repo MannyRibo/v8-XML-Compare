@@ -44,17 +44,33 @@
         <item quantity="other">"Selected photos aren't on device. They will be downloaded."</item>
         <item quantity="one">"Selected photo isn't on device. It will be downloaded."</item>
     </plurals>
+    <plurals name="picker_skip_unavailable_images">
+        <item quantity="other">"Skipped %d photos which aren't on device."</item>
+        <item quantity="one">"Skipped a photo which isn't on device."</item>
+    </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">"Couldn't download %1$d photos, try again?"</item>
         <item quantity="one">"Couldn't download photo, try again?"</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_image_confirm_message">
+        <item quantity="other">"Couldn't download %1$d photos, connect to the network and try again"</item>
+        <item quantity="one">"Couldn't download photo, connect to the network and try again"</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
         <item quantity="other">"Couldn't download %1$d photos (%2$dMB), try again?"</item>
         <item quantity="one">"Couldn't download photo (%2$dMB), try again?"</item>
     </plurals>
+    <plurals name="picker_no_network_retry_origin_confirm_message">
+        <item quantity="other">"Couldn't download %1$d photos (%2$dMB), connect to the network and try again"</item>
+        <item quantity="one">"Couldn't download photo (%2$dMB), connect to the network and try again"</item>
+    </plurals>
     <plurals name="picker_cancel_confirm_message">
         <item quantity="other">Cancel downloading %d remaining photos?</item>
         <item quantity="one">Cancel downloading the remaining photo?</item>
+    </plurals>
+    <plurals name="add_to_album_cloud_photo_count_tip">
+        <item quantity="other">Added %d cloud photos, turn off \"Only show local albums\" to view.</item>
+        <item quantity="one">Added %d cloud photo, turn off \"Only show local albums\" to view.</item>
     </plurals>
     <plurals name="delete_photo_msg_format">
         <item quantity="other">Delete %1$d photos %2$s?</item>
@@ -104,6 +120,14 @@
         <item quantity="other">Not enough local storage. %1$d items are waiting to be backed up</item>
         <item quantity="one">Not enough local storage. %1$d item is waiting to be backed up</item>
     </plurals>
+    <plurals name="number_of_images_synced">
+        <item quantity="other">%1$d photos</item>
+        <item quantity="one">1 photo</item>
+    </plurals>
+    <plurals name="number_of_videos_synced">
+        <item quantity="other">%1$d videos</item>
+        <item quantity="one">1 video</item>
+    </plurals>
     <plurals name="number_of_images_to_upload">
         <item quantity="other">%1$d photos waiting to back up</item>
         <item quantity="one">1 photo waiting to back up</item>
@@ -135,5 +159,9 @@
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d items selected</item>
         <item quantity="one">%d item selected</item>
+    </plurals>
+    <plurals name="fast_share_auto_render_failed">
+        <item quantity="other">"Skipped %1$d photos which couldn't be rendered."</item>
+        <item quantity="one">"Skipped a photo which couldn't be rendered."</item>
     </plurals>
 </resources>

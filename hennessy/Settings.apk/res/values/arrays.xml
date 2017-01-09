@@ -970,6 +970,10 @@
         <item>1</item>
         <item>0</item>
     </string-array>
+    <string-array name="ap_identify">
+        <item>default</item>
+        <item>iPhone</item>
+    </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>Graphical</item>
         <item>Percentage</item>
@@ -1102,6 +1106,7 @@
         <item>Launch Assistant</item>
         <item>Launch Google now</item>
         <item>Close current app</item>
+        <item>Launch Quick Search</item>
         <item>Show menu</item>
     </string-array>
     <string-array name="screen_key_long_press_action_value">
@@ -1110,6 +1115,7 @@
         <item>voice_assistant</item>
         <item>google_now</item>
         <item>close_app</item>
+        <item>quick_search</item>
         <item>show_menu</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
@@ -1123,6 +1129,18 @@
         <item>1000</item>
         <item>1500</item>
         <item>2000</item>
+    </string-array>
+    <string-array name="long_press_volume_down_action">
+        <item>None</item>
+        <item>Quick snap mode (photo)</item>
+        <item>Quick snap mode (video)</item>
+        <item>Public transportation shortcuts</item>
+    </string-array>
+    <string-array name="long_press_volume_down_action_value">
+        <item>none</item>
+        <item>Street-snap-picture</item>
+        <item>Street-snap-movie</item>
+        <item>public_transportation_shortcuts</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 second</item>
@@ -1315,7 +1333,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Gallery</item>
         <item>Music</item>
         <item>Email</item>
-        <item>Video</item>
+        <item>Play video</item>
     </string-array>
     <string-array name="permission_risk_privacy">
         <item>android.permission.ACCESS_COARSE_LOCATION</item>
@@ -1489,7 +1507,26 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>XXL</item>
         <item>XXXL</item>
     </string-array>
+    <string-array name="max_number_titles">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>Unlimited</item>
+    </string-array>
+    <string-array name="max_number_values">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2007</item>
+    </string-array>
     <string-array name="organized_locales">
+        <item>al</item>
         <item>dz</item>
         <item>ao</item>
         <item>ag</item>
@@ -1498,10 +1535,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>bh</item>
         <item>bd</item>
         <item>bb</item>
+        <item>by</item>
         <item>be</item>
         <item>bz</item>
         <item>bo</item>
+        <item>ba</item>
         <item>bw</item>
+        <item>bg</item>
         <item>br</item>
         <item>cm</item>
         <item>cl</item>
@@ -1509,6 +1549,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>cd</item>
         <item>cr</item>
         <item>ci</item>
+        <item>hr</item>
         <item>cu</item>
         <item>cz</item>
         <item>dm</item>
@@ -1517,12 +1558,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>eg</item>
         <item>sv</item>
         <item>gq</item>
+        <item>ee</item>
         <item>et</item>
         <item>fk</item>
         <item>fr</item>
         <item>gf</item>
         <item>de</item>
         <item>gh</item>
+        <item>gr</item>
         <item>gd</item>
         <item>gt</item>
         <item>gy</item>
@@ -1535,20 +1578,26 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>ir</item>
         <item>iq</item>
         <item>il</item>
+        <item>it</item>
         <item>jm</item>
         <item>jo</item>
         <item>kz</item>
         <item>ke</item>
         <item>kw</item>
+        <item>lv</item>
         <item>lb</item>
         <item>ls</item>
         <item>ly</item>
         <item>lt</item>
+        <item>mk</item>
         <item>mw</item>
         <item>my</item>
+        <item>mt</item>
         <item>mr</item>
         <item>mu</item>
         <item>mx</item>
+        <item>md</item>
+        <item>me</item>
         <item>ma</item>
         <item>mz</item>
         <item>mm</item>
@@ -1571,8 +1620,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>rw</item>
         <item>sa</item>
         <item>sn</item>
+        <item>rs</item>
         <item>sg</item>
         <item>sk</item>
+        <item>si</item>
         <item>so</item>
         <item>za</item>
         <item>gs</item>
@@ -1585,6 +1636,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>sd</item>
         <item>sr</item>
         <item>sz</item>
+        <item>se</item>
         <item>ch</item>
         <item>sy</item>
         <item>tw</item>
@@ -1597,6 +1649,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>ug</item>
         <item>ua</item>
         <item>ae</item>
+        <item>gb</item>
         <item>us</item>
         <item>uy</item>
         <item>uz</item>
@@ -1618,17 +1671,28 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>BR</item>
         <item>CL</item>
         <item>CO</item>
+        <item>CR</item>
+        <item>CU</item>
         <item>EC</item>
         <item>EG</item>
         <item>GF</item>
         <item>GD</item>
+        <item>GQ</item>
+        <item>GT</item>
         <item>GY</item>
+        <item>HT</item>
+        <item>HN</item>
         <item>IN</item>
         <item>IL</item>
         <item>IR</item>
+        <item>JM</item>
         <item>JO</item>
+        <item>KR</item>
         <item>KW</item>
+        <item>MX</item>
+        <item>NI</item>
         <item>OM</item>
+        <item>PA</item>
         <item>PY</item>
         <item>PE</item>
         <item>QA</item>
@@ -1647,21 +1711,27 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="common_password_business_keys">
         <item>miui_keyguard</item>
+        <item>fingerprint_apply_to_privacy_password</item>
         <item>childrenmode</item>
         <item>file_explorer</item>
         <item>com_miui_applicatinlock_use_fingerprint_state</item>
+        <item>security_core_add</item>
     </string-array>
     <string-array name="common_password_business_clickable_default">
         <item>true</item>
         <item>true</item>
+        <item>true</item>
         <item>false</item>
         <item>true</item>
+        <item>false</item>
     </string-array>
     <string-array name="common_password_business_names">
         <item>Lock screen</item>
+        <item>Privacy password</item>
         <item>Child mode</item>
         <item>File Explorer</item>
         <item>App lock</item>
+        <item>Second space</item>
     </string-array>
     <integer-array name="alarm_repeat_type_values">
         <item>1</item>
@@ -1682,5 +1752,145 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Every day</item>
         <item>Weekdays</item>
         <item>Custom</item>
+    </string-array>
+    <string-array name="privacy_password_function_specfication_keys">
+        <item>privacy_mms</item>
+        <item>privacy_gallery</item>
+        <item>privacy_file</item>
+        <item>privacy_notes</item>
+    </string-array>
+    <string-array name="privacy_password_function_specfication_names">
+        <item>Messages</item>
+        <item>Photos</item>
+        <item>Files</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="standard_configuration_version">
+        <item>3.00GB</item>
+        <item>32GB</item>
+        <item>四核最高1.8GHz</item>
+    </string-array>
+    <string-array name="high_configuration_version">
+        <item>3.00GB</item>
+        <item>64GB</item>
+        <item>四核最高2.15GHz</item>
+    </string-array>
+    <string-array name="enjoy_version">
+        <item>3.00GB</item>
+        <item>32GB</item>
+        <item>四核最高2.15GHz</item>
+    </string-array>
+    <string-array name="standard_configuration_version_description_primary">
+        <item>MTK Helio X10</item>
+        <item>3060mAh</item>
+        <item>2GB双通道</item>
+        <item>5.5英寸</item>
+        <item>4G</item>
+        <item>13MP</item>
+    </string-array>
+    <string-array name="standard_configuration_version_description_secondary">
+        <item>八核64位</item>
+        <item>可换式大电池</item>
+        <item>存储空间</item>
+        <item>1080p 全高清</item>
+        <item>双卡双待</item>
+        <item>相位对焦相机</item>
+    </string-array>
+    <string-array name="standard_configuration_version_device_display_summary">
+        <item>Helio X10处理器</item>
+        <item>1300万像素相机</item>
+        <item>5.5英寸全高清屏幕</item>
+    </string-array>
+    <string-array name="standard_configuration_version_device_display_secondary">
+        <item>MTK旗舰级Helio X10处理器，8核64位Cortex-A53构架</item>
+        <item>快至0.1秒相位对焦，捕捉每一个幸福瞬间</item>
+        <item>专为年轻人优化，支持阳光屏、夜光屏</item>
+    </string-array>
+    <string-array name="standard_configuration_version_device_display_description_text_1">
+        <item>GB</item>
+        <item>16MP</item>
+        <item>95%NTSC</item>
+    </string-array>
+    <string-array name="standard_configuration_version_device_display_description_text_2">
+        <item>GB</item>
+        <item>蓝宝石</item>
+        <item>600nit</item>
+    </string-array>
+    <string-array name="standard_configuration_version_device_display_description_text_3">
+        <item>内存</item>
+        <item>索尼iMX298相机</item>
+        <item>高色彩饱和度</item>
+    </string-array>
+    <string-array name="standard_configuration_version_device_display_description_text_4">
+        <item>内存</item>
+        <item>镜头保护玻璃</item>
+        <item>屏幕亮度</item>
+    </string-array>
+    <string-array name="hardware_parameters_title">
+        <item>"CPU、
+存储
+与电池"</item>
+        <item>外观尺寸</item>
+        <item>"拍照
+与摄像"</item>
+        <item>"屏幕
+与显示"</item>
+        <item>"无线连接
+与制式"</item>
+        <item>"传感器
+与导航"</item>
+    </string-array>
+    <string-array name="hardware_parameters_summary">
+        <item>"MTK X10 八核64位处理器
+标准版 MTK X10 八核 2.0 GHz处理器
+高配版 MTK X10 八核 2.2 GHz处理器
+Power VR G6200 图形处理器
+2GB极速内存
+LPDDR3
+16GB容量/高配版32GB容量
+支持最大 32GB 扩展存储卡
+SIM卡槽
+支持Micro-SIM卡，双卡双待
+3060mAh电池
+锂离子聚合物电池
+典型容量3060mAh，额定容量3020mAh"</item>
+        <item>"高度：152 mm
+宽度：76 mm
+厚度：8.25mm"</item>
+        <item>"三星等1300万像素相机
+0.1秒相位对焦
+5片式镜头
+F2.2光圈，78°广角
+支持全景模式、水平仪、手动模式、场景模式
+倒计时、HDR模式
+支持1080p高清视频录制
+500万像素前置相机
+支持36级智能美颜
+支持1080p高清视频录制"</item>
+        <item>"5.5英寸全高清屏幕
+1920 x 1080分辨率，400PPI"</item>
+        <item>"移动版
+支持中国移动4G/3G/2G、中国联通2G网络
+标准版/高配版双网通
+支持中国移动及中国联通4G/3G/2G 网络
+蓝牙4.0/2.4/5GHz双WLAN/WIFI Display/WIFI Direct"</item>
+        <item>"电子罗盘
+重力感应
+光线感应
+陀螺仪
+距离感应器
+红外
+GPS
+A-GPS
+GPS+GLONASS
+北斗定位"</item>
+    </string-array>
+    <string-array name="standard_configuration_version_device_info_title">
+        <item>红米Note 2</item>
+        <item>红米Note 2特色功能</item>
+    </string-array>
+    <string-array name="standard_configuration_version_share_text">
+        <item>"红米Note 2，快的有点狠!
+http://m.mi.com"</item>
     </string-array>
 </resources>

@@ -1,5 +1,54 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="APKTOOL_DUMMY_178">false</string>
+  <string name="APKTOOL_DUMMY_179">false</string>
+  <string name="APKTOOL_DUMMY_17a">false</string>
+  <string name="APKTOOL_DUMMY_17b">false</string>
+  <string name="APKTOOL_DUMMY_17c">false</string>
+  <string name="APKTOOL_DUMMY_17d">false</string>
+  <string name="APKTOOL_DUMMY_17e">false</string>
+  <string name="APKTOOL_DUMMY_17f">false</string>
+  <string name="APKTOOL_DUMMY_180">false</string>
+  <string name="APKTOOL_DUMMY_181">false</string>
+  <string name="APKTOOL_DUMMY_182">false</string>
+  <string name="APKTOOL_DUMMY_183">false</string>
+  <string name="APKTOOL_DUMMY_184">false</string>
+  <string name="APKTOOL_DUMMY_185">false</string>
+  <string name="APKTOOL_DUMMY_186">false</string>
+  <string name="APKTOOL_DUMMY_187">false</string>
+  <string name="APKTOOL_DUMMY_188">false</string>
+  <string name="APKTOOL_DUMMY_189">false</string>
+  <string name="APKTOOL_DUMMY_18a">false</string>
+  <string name="APKTOOL_DUMMY_18b">false</string>
+  <string name="APKTOOL_DUMMY_18c">false</string>
+  <string name="APKTOOL_DUMMY_18d">false</string>
+  <string name="APKTOOL_DUMMY_18e">false</string>
+  <string name="APKTOOL_DUMMY_18f">false</string>
+  <string name="APKTOOL_DUMMY_190">false</string>
+  <string name="APKTOOL_DUMMY_191">false</string>
+  <string name="APKTOOL_DUMMY_192">false</string>
+  <string name="APKTOOL_DUMMY_193">false</string>
+  <string name="APKTOOL_DUMMY_194">false</string>
+  <string name="APKTOOL_DUMMY_195">false</string>
+  <string name="APKTOOL_DUMMY_196">false</string>
+  <string name="APKTOOL_DUMMY_197">false</string>
+  <string name="APKTOOL_DUMMY_198">false</string>
+  <string name="APKTOOL_DUMMY_199">false</string>
+  <string name="APKTOOL_DUMMY_19a">false</string>
+  <string name="APKTOOL_DUMMY_19b">false</string>
+  <string name="APKTOOL_DUMMY_19c">false</string>
+  <string name="APKTOOL_DUMMY_19d">false</string>
+  <string name="APKTOOL_DUMMY_19e">false</string>
+  <string name="APKTOOL_DUMMY_19f">false</string>
+  <string name="SDCard">SD Card</string>
+  <string name="SD_INTERNAL_SDCard_mounted">Detect Internal SDCard</string>
+  <string name="SD_INTERNAL_SDCard_unmounted">Internal SDCard unavailable</string>
+  <string name="SD_SDCard_available_szie">Available size</string>
+  <string name="SD_SDCard_mounted">Detect SDCard</string>
+  <string name="SD_SDCard_total_size">Total size</string>
+  <string name="SD_SDCard_unmounted">SDCard unavailable</string>
+  <string name="button_cancel">Cancel</string>
+  <string name="button_ok">OK</string>
   <string name="camerainfo">Camera information</string>
   <string name="cit_OTG_plugin_check_summary">When OTG device is connected, the text \"USB OTG device detected\" should be displayed below.</string>
   <string name="cit_OTG_plugin_check_title">OTG (detection)</string>
@@ -12,6 +61,8 @@
   <string name="cit_accelermeter_sensor_check_summary">"Move the device quickly in one direction. X，Y，Z coordinate values are displayed below. (when phone is in motion: X is represents left/right, y represents front/back, z represents up and down).
 Before you calibrate the device, place it on a flat surface."</string>
   <string name="cit_accelermeter_sensor_check_title">Accelerometer</string>
+  <string name="cit_apk_signature_failed">apk signature FAILED</string>
+  <string name="cit_apk_signature_passed">apk signature PASSED</string>
   <string name="cit_aud_current_state">Current State:</string>
   <string name="cit_aud_spk_l">spk_L</string>
   <string name="cit_aud_spk_r">spk_R</string>
@@ -72,6 +123,8 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
   <string name="cit_audio_right_caldata">"Right PA Calibrated Data:
 "</string>
   <string name="cit_audio_right_calfail">Right PA Calibrated Failed!</string>
+  <string name="cit_battery_check_summary">Device battery statistics</string>
+  <string name="cit_battery_check_title">Battery info</string>
   <string name="cit_battery_temp_fail">Battery temperature is not normal (value=%d)</string>
   <string name="cit_battery_temp_pass">Battery temperature is normal</string>
   <string name="cit_batterylight_blue">Blue</string>
@@ -90,6 +143,8 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
   <string name="cit_bluetooth_scanning_bluetooth_done">"Done. Didn't find any Bluetooth devices nearby."</string>
   <string name="cit_bluetooth_scanning_bluetooth_error">An error occurred while scanning for Bluetooth devices.</string>
   <string name="cit_bluetooth_scanning_opening_bluetooth">Opening Bluetooth device…</string>
+  <string name="cit_build_finger_failed">build fingerprint FAILED</string>
+  <string name="cit_build_finger_passed">build fingerprint PASSED</string>
   <string name="cit_button_light_off">Buttons light off</string>
   <string name="cit_button_light_on">Buttons light on</string>
   <string name="cit_calibration_fail">Calibration failed</string>
@@ -112,6 +167,8 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
   <string name="cit_exit_test_title">Exit test</string>
   <string name="cit_fail">Fail</string>
   <string name="cit_finger_check_title">Finger Print Test(FPC)</string>
+  <string name="cit_flash_life_check_summary">Device flash life time estimation</string>
+  <string name="cit_flash_life_check_title">Flash life</string>
   <string name="cit_fm_audio_path">Configure audio path</string>
   <string name="cit_fm_audio_path_headset">Headphones</string>
   <string name="cit_fm_audio_path_speaker">Speaker</string>
@@ -134,6 +191,7 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
 3.Tap the Check icon. The system will save the photo automatically.
 4.The photo you took should be displayed below. Tap Delete to complete the test."</string>
   <string name="cit_front_camera_check_title">Front camera</string>
+  <string name="cit_get_signature_failed">get signature FAILED</string>
   <string name="cit_gps_check_summary">The corresponding GPS info should be displayed below.</string>
   <string name="cit_gps_check_title">GPS</string>
   <string name="cit_gps_disabled">"GPS hasn't started
@@ -214,13 +272,12 @@ Touch the screen to start GPS…"</string>
   <string name="cit_proximity_sensor_check_summary">"Cover the proximity sensor (located at the top of the phone near the receiver) with your hand, then move your hand away. The value should increase from 0.0 when you move your hand further away from the device.
 When calibrating, make sure there's nothing between the sensor and your hand (e.g. protective screen cover or gloves)."</string>
   <string name="cit_proximity_sensor_check_title">Proximity sensor</string>
+  <string name="cit_rear_dual_camera_check_title">Rear dual camera</string>
+  <string name="cit_rear_sub_camera_check_title">Rear sub camera</string>
+  <string name="cit_recovery_signature_failed">recovery signature FAILED</string>
+  <string name="cit_recovery_signature_passed">recovery signature PASSED</string>
   <string name="cit_reset_check_summary">This test will reboot the device. All previous test data will be lost.</string>
   <string name="cit_reset_check_title">Reboot test</string>
-  <string name="cit_reset_ese_summary">Reset eSE ,all your NFC bankcards and transcards will be deleted.</string>
-  <string name="cit_reset_ese_title">Reset eSE</string>
-  <string name="cit_reset_se">Reset eSE</string>
-  <string name="cit_reset_se_nfc_closed">Fail:NFC should be enabled.</string>
-  <string name="cit_reset_se_start">Resetting your eSE...</string>
   <string name="cit_reset_test">Test</string>
   <string name="cit_sd_fail">An error occurred.</string>
   <string name="cit_sd_mount">Mount SD card</string>
@@ -235,6 +292,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_sd_plugout_check_title">SD card (removal)</string>
   <string name="cit_sd_unmount">Unmount SD card</string>
   <string name="cit_sd_unmount_sucess">SD card unmounted</string>
+  <string name="cit_signature_check_label">signature check:</string>
   <string name="cit_sim_check_summary">Confirm that correct the status and info of the SIM card is displayed below</string>
   <string name="cit_sim_check_title">SIM card</string>
   <string name="cit_sim_error_unknown">Unknown</string>
@@ -253,6 +311,8 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_sim_state_unkown">Unknown</string>
   <string name="cit_start_calibration">Calibrate</string>
   <string name="cit_stop_calibration">Stop calibrating</string>
+  <string name="cit_tfcard_support_summary">Check if TFCard is supported on this device</string>
+  <string name="cit_tfcard_support_title">Support TFCard</string>
   <string name="cit_tool">Additional tools</string>
   <string name="cit_tool_bluetooth">Bluetooth test tool</string>
   <string name="cit_tool_bluetooth_dut">Enter Bluetooth Test Mode</string>
@@ -281,10 +341,18 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_tool_log_toast_generate_bugreport">Creating bug report… (this takes about 1 minute)</string>
   <string name="cit_tool_modem">MODEM test tools</string>
   <string name="cit_tool_modem_bugreport">Force MODEM Coredump</string>
+  <string name="cit_tool_modem_cu_volte">China Union VoLTE</string>
+  <string name="cit_tool_modem_cu_volte_no">Disable CU VoLTE</string>
+  <string name="cit_tool_modem_cu_volte_no_confirm">Disable CU VoLTE, restart to take effect.</string>
+  <string name="cit_tool_modem_cu_volte_yes">Enable CU VoLTE</string>
+  <string name="cit_tool_modem_cu_volte_yes_confirm">Enable CU VoLTE, restart to take effect.</string>
   <string name="cit_tool_modem_exit_ftm">Exit FTM mode</string>
   <string name="cit_tool_modem_mbn">Change Modem Config</string>
   <string name="cit_tool_modem_offline_log">Open/Close Offline Log</string>
   <string name="cit_tool_nfc">NFC test tools</string>
+  <string name="cit_tool_nfc_ce_disable">Disable Ce</string>
+  <string name="cit_tool_nfc_ce_enable">Enable Ce</string>
+  <string name="cit_tool_nfc_ce_status">Ce Status:</string>
   <string name="cit_tool_nfc_st">Nfc ST:</string>
   <string name="cit_tool_nfc_st_confreq">freq:</string>
   <string name="cit_tool_nfc_st_run">Run</string>
@@ -359,9 +427,21 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="cit_wifi_fail_to_scan">"Couldn't scan for networks"</string>
   <string name="cit_wifi_state_refresh">Refresh</string>
   <string name="cit_yellow_torch_on">Turn on yellow flash light</string>
+  <string name="error_app_internal">Internal application error</string>
+  <string name="error_app_unsupported">Unsupported format</string>
+  <string name="error_sdcard_access">Unable to access system space!</string>
   <string name="keyboard">KEY</string>
   <string name="lcminfo">LCM information</string>
+  <string name="magnetic_info_hint">Please rotate the device like 8 shape</string>
+  <string name="mic1_spk_loop">Mic speak Loop</string>
+  <string name="mic1test">MIC1</string>
+  <string name="micphone_test">MIC＆ SPK</string>
+  <string name="remove_headset_and_starttest">Please remove headset and press start to test</string>
+  <string name="speak_from_mic">Speaking to the MIC, the speaker playback. Judge whether there is sound.</string>
+  <string name="start">Start</string>
+  <string name="testagain">You can Press key HOME to test again</string>
   <string name="testing">AutoTest Running...</string>
+  <string name="touch_auto">Touch panel self test ongoing, please wait....</string>
   <string name="tp_color">TP Color:</string>
   <string name="tp_version">TP Version:</string>
   <string name="waiting">Waiting for 4s.</string>

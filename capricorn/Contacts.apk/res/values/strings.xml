@@ -392,9 +392,6 @@ Contact cards are turned off"</string>
   <string name="dialer_menu_title">Menu options</string>
   <string name="dialer_returnToInCallScreen">Return to call in progress</string>
   <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
-  <string name="dialog_device_info_hardware_version">Hardware version: %s</string>
-  <string name="dialog_device_info_miui_version">MIUI version: %s</string>
-  <string name="dialog_device_info_title">Version info</string>
   <string name="dialog_import">Import contacts</string>
   <string name="dialog_import_export">Import/export contacts</string>
   <string name="dialog_new_contact_account">Create contact under account</string>
@@ -1229,6 +1226,7 @@ To add a contact to your list of favorites:
   <string name="unknow_phone_number_mms_failed">"Can't send message to unknown number"</string>
   <string name="unknown">Unknown</string>
   <string name="unknown_contact_name">Unknown contact</string>
+  <string name="update_sim_contact_photo_toast">"Can't set profile photos for SIM contacts"</string>
   <string name="upgrade_in_progress">Contact list is being updated.</string>
   <string name="upgrade_out_of_memory">"Contacts are in the process of being upgraded. 
 
@@ -1284,6 +1282,7 @@ Choose one of the following options:"</string>
   <string name="yellowPageNavigationIconLabel">Yellow pages</string>
   <string name="yellowPageNavigationLabel">Yellow pages</string>
   <string name="yellowpage_fc_toast">"Can't use this feature because Yellow pages crashed."</string>
+  <string name="yellowpage_mi_family">小米之家</string>
   <string name="yellowpage_navigation_ad_hint">Ad</string>
   <string name="yellowpage_navigation_balance_refresh_failed">"Balance and mobile data couldn't be verified, try again later."</string>
   <string name="yellowpage_navigation_balance_refresh_succeed">Balance and mobile data have been verified</string>

@@ -338,7 +338,7 @@
         <item>1 week before</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>Locale default</item>
+        <item>Region default</item>
         <item>Saturday</item>
         <item>Sunday</item>
         <item>Monday</item>
@@ -461,6 +461,4 @@
     <item type="array" name="APKTOOL_DUMMY_34">false</item>
     <item type="array" name="APKTOOL_DUMMY_35">false</item>
     <item type="array" name="APKTOOL_DUMMY_36">false</item>
-    <item type="array" name="APKTOOL_DUMMY_38">false</item>
-    <item type="array" name="APKTOOL_DUMMY_39">false</item>
 </resources>

@@ -72,6 +72,7 @@
   <string name="cloud_state_disabled">Sync with Mi Cloud is off</string>
   <string name="cloud_state_sync_finished">Synced with Mi Cloud</string>
   <string name="cloud_state_syncing">Syncing with Mi Cloud…</string>
+  <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
   <string name="compressing">Picture is too large. Compressing…</string>
   <string name="confirm">OK</string>
   <string name="confirm_add_blacklist_dialog_dspt">Add this number to your blocklist?</string>
@@ -95,7 +96,7 @@
   <string name="confirm_restore_checkbox">Restore blocked messages</string>
   <string name="confirm_restore_message">Restore selected messages?</string>
   <string name="confirm_restore_positive">Restore</string>
-  <string name="confirm_restore_title">Restore Message</string>
+  <string name="confirm_restore_title">Restore messages</string>
   <string name="confirm_send_mms">One of your recipients includes an email address. This message will be sent as an MMS, which may result in extra charges from you carrier.</string>
   <string name="context_menu_add_calendar">Add to Calendar</string>
   <string name="context_menu_add_contact">Add to contacts</string>
@@ -164,6 +165,7 @@
   <string name="exceed_message_text_limitation">Message text length limit reached.</string>
   <string name="expire_on">Expires: %s</string>
   <string name="exporting_progress_private_message">Exporting…</string>
+  <string name="fail_to_add_attachment">"Couldn't add attachment"</string>
   <string name="failed_to_add_media">"You can't add this %1$s to your message."</string>
   <string name="failed_to_resize_image">Picture not resized.</string>
   <string name="fake_cell_alert_hint">Looks like this message was sent from the phone number which is different from the one displayed. Be cautious of the SMS containing financial requests.</string>
@@ -423,6 +425,7 @@
   <string name="pref_summary_send_delivery_reports">Send delivery confirmation message to sender when you receive a multimedia message</string>
   <string name="pref_summary_show_recent_contacts">Show recent contacts when composing a new message</string>
   <string name="pref_summary_wake_up_screen">Wake the screen whenever a new message is received</string>
+  <string name="pref_switch_sdk_setting">Switch smart sms engine</string>
   <string name="pref_system_title">System</string>
   <string name="pref_time_auto_group_disabled_summary">"It's not supported in current font size"</string>
   <string name="pref_time_auto_group_summary">Group messages that are received within a minute of each other together</string>
@@ -438,7 +441,7 @@
   <string name="pref_title_miui_card">Send via card</string>
   <string name="pref_title_mms_auto_retrieval">Download MMS content automatically</string>
   <string name="pref_title_mms_delete">Multimedia message limit</string>
-  <string name="pref_title_mms_read_reports">Read receipts</string>
+  <string name="pref_title_mms_read_reports">MMS read receipts</string>
   <string name="pref_title_mms_retrieval_during_roaming">Download MMS content when roaming</string>
   <string name="pref_title_mms_validity_period">MMS expiration</string>
   <string name="pref_title_notification_body_enabled">Show messages on lock screen</string>

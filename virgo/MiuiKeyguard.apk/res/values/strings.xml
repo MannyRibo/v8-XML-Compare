@@ -30,6 +30,7 @@
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="incorrect_pukcode_remaining_attempts">Incorrect PUK code, %d attempts remaining</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
+  <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
   <string name="input_password_hint_text">Enter password</string>
   <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_pin_code">Enter PIN</string>
@@ -79,6 +80,7 @@ Sign in to i.mi.com, go to “Find device”, select the device and press Wipe d
   <string name="unlock_string">Unlock</string>
   <string name="unlocking_sim_card">Unlocking SIM card</string>
   <string name="unlockscreen_low_battery">Connect charger now</string>
+  <string name="unlockscreen_quick_charging_message">Quick charging %d%%</string>
   <string name="unlockscreen_recharge_completed">Battery charged</string>
   <string name="unlockscreen_recharging_message">Charging %d%%</string>
   <string name="wrong_password">Incorrect password</string>

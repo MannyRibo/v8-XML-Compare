@@ -181,6 +181,7 @@
   <string name="allow_check_website_security">Show website security check notifications</string>
   <string name="app_details">App:</string>
   <string name="app_name">Scanner</string>
+  <string name="back">Back</string>
   <string name="barcode_into_rectangle">Place the code inside the frame</string>
   <string name="birthday">Birthday:</string>
   <string name="camera_error_title">Camera error</string>
@@ -235,6 +236,7 @@
   <string name="document_title">Take a photo of the document</string>
   <string name="document_top_panel_title">Document photo</string>
   <string name="done">Done</string>
+  <string name="drag_barcode_into_frame">Drag the frame to fit the code</string>
   <string name="email">Email:</string>
   <string name="error_camera_disabled">Access to Camera has been denied due to security reasons</string>
   <string name="error_cannot_connect_camera">"Can't connect to Camera"</string>
@@ -299,7 +301,7 @@
   <string name="language_value_russian">russian</string>
   <string name="language_value_spanish">spanish</string>
   <string name="language_value_swedish">swedish</string>
-  <string name="low_version_tip">Scanner cannot run on current system, please update to the latest MIUI</string>
+  <string name="low_version_tip">MIUI version is too old. Update MIUI to use Scanner.</string>
   <string name="module_title_code">QR code</string>
   <string name="module_title_document">Document</string>
   <string name="module_title_namecard">Business card</string>
@@ -390,8 +392,9 @@
   <string name="view_study_report">View report</string>
   <string name="web">Website:</string>
   <string name="website_details">Website:</string>
-  <string name="wifi_details">Wi-Fi:</string>
-  <string name="wifi_open_fail">"Can't turn on Wi-Fi"</string>
+  <string name="weixin_code_tip">Please use WeChat to scan this QR code</string>
+  <string name="wifi_details">WLAN:</string>
+  <string name="wifi_open_fail">"Can't turn on WLAN"</string>
   <string name="wifi_pwd">Password:</string>
   <string name="wifi_security">Security:</string>
   <string name="wifi_ssid">SSID:</string>

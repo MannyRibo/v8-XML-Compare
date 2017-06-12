@@ -42,7 +42,7 @@
   <string name="context_menu_new_contact">Create a new contact</string>
   <string name="context_menu_send_mail">Send email</string>
   <string name="context_menu_send_sms">Send message</string>
-  <string name="conversation_list_title">Mi Messages</string>
+  <string name="conversation_list_title">Mi Message</string>
   <string name="converting_to_picture_message">Converting to multimedia message…</string>
   <string name="converting_to_text_message">Converting to text message…</string>
   <string name="copy_message_text">Copy text</string>
@@ -114,9 +114,9 @@
   <string name="msglist_no_more_to_refresh">Already up to date</string>
   <string name="msglist_release_to_more">Release to view more</string>
   <string name="mx_auto_resend_mms">Send as MMS</string>
-  <string name="mx_auto_resend_mms_summary">"Send multimedia messages as MMS over mobile data connection when you're not connected to Wi-Fi. You will incur regular charges from your carrier."</string>
+  <string name="mx_auto_resend_mms_summary">"Send multimedia messages as MMS over mobile data connection when you're not connected to WLAN. You will incur regular charges from your carrier."</string>
   <string name="mx_auto_resend_sms">Send as SMS</string>
-  <string name="mx_auto_resend_sms_summary">"Send messages as SMS over mobile data connection when you're not connected to Wi-Fi. You will incur regular charges from your carrier."</string>
+  <string name="mx_auto_resend_sms_summary">"Send messages as SMS over mobile data connection when you're not connected to WLAN. You will incur regular charges from your carrier."</string>
   <string name="mx_current_status">Data usage settings</string>
   <string name="mx_dspt">Send messages to other MIUI devices without incurring charges</string>
   <string name="mx_enable">Mi Message</string>

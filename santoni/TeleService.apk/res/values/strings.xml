@@ -1192,6 +1192,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sum_cfu_disabled">Disabled</string>
   <string name="sum_cfu_enabled">Forwarding all calls to {0}</string>
   <string name="sum_cfu_enabled_indicator">Forwarding all calls</string>
+  <string name="sum_cfu_enabled_indicator_by_sim">All calls to SIM %s will be forwarded</string>
   <string name="sum_cfu_enabled_no_number">Number is unavailable</string>
   <string name="sum_cw_disabled">During a call, notify me of incoming calls</string>
   <string name="sum_cw_enabled">During a call, notify me of incoming calls</string>
@@ -1266,6 +1267,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="time_start">From</string>
   <string name="time_start_hour">time start hour</string>
   <string name="time_start_minute">time start minute</string>
+  <string name="title_cfu_enabled">Call forwarding is on</string>
   <string name="to_hint">1111:to;sip:abby@example.com:bcc;sip:bill@example.com:cc;</string>
   <string name="transport">Protocol</string>
   <string name="transport_title">Transport type</string>
@@ -1319,6 +1321,9 @@ Contact your carrier if this problem persists."</string>
   <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
   <string name="voicemail_visual_voicemail_switch_title">Visual voicemail</string>
   <string name="voip_setting">VoIP settings</string>
+  <string name="volte_provision_notification_activate">Activate</string>
+  <string name="volte_provision_text">VoLTE calls provide better quality than regular calls. Send SMS to activate?</string>
+  <string name="volte_provision_title">Activate VoLTE calls</string>
   <string name="volte_switch_summary">Use VoLTE to improve voice and video call quality</string>
   <string name="volte_switch_title">VoLTE enabled</string>
   <string name="wait_prompt_str">"Send the following tones?

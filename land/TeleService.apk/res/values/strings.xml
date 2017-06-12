@@ -59,7 +59,6 @@
   <string name="auto_answer_scenario_enteries_headset_only">Headset only</string>
   <string name="auto_answer_scenario_title">Auto-answer settings</string>
   <string name="auto_answer_setting_title">Auto-answer settings</string>
-  <string name="auto_answer_summary_delay">delay: %s seconds</string>
   <string name="auto_answer_summary_not_enabled">Off</string>
   <string name="auto_record_yellowpage">Directory</string>
   <string name="auto_redial_pref_summary">Redial automatically if the line is busy</string>
@@ -187,8 +186,6 @@
   <string name="call_record_auto_unknown_number">Unknown numbers</string>
   <string name="call_record_auto_whitelist">Custom list</string>
   <string name="call_record_auto_whitelist_no_item">Add a number by touching the add (+) button</string>
-  <string name="call_record_auto_whitelist_summary">%d numbers</string>
-  <string name="call_record_auto_whitelist_summary_for_one">1 number</string>
   <string name="call_record_loading_content">Loading…</string>
   <string name="call_record_off_summary">Off</string>
   <string name="call_record_on_summary">On</string>
@@ -202,7 +199,6 @@
   <string name="call_recording_notification_title_error">"Couldn't record call"</string>
   <string name="call_recording_notification_toggle_title">Call recording notification</string>
   <string name="call_recording_setting">Call recording</string>
-  <string name="call_remove_exception_numbers_confirm">%d numbers will be deleted.</string>
   <string name="call_settings">Phone</string>
   <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
   <string name="call_settings_title_font_family">sans-serif-light</string>
@@ -747,6 +743,7 @@ Using preferred network instead."</string>
   <string name="new_pin_label">New PIN</string>
   <string name="no_call_barring">Call barring is off</string>
   <string name="no_change">No changes were made.</string>
+  <string name="no_checked_network">"You won't be able to connect to mobile network and make calls. Select another network?"</string>
   <string name="no_internet_available">To place a SIP call, check your Internet connection first.</string>
   <string name="no_vm_number">Missing voicemail number</string>
   <string name="no_vm_number_msg">No voicemail number is stored on the SIM card.</string>
@@ -885,8 +882,6 @@ You have %d remaining attempts."</string>
 PIN2 related functions will be locked after another failed attempt."</string>
   <string name="pin2_or_fdn_invalid">"FDN wasn't updated. The PIN2 was incorrect, or the phone number was rejected."</string>
   <string name="pin2_unblocked">PIN 2 is no longer blocked</string>
-  <string name="pin_attempts">"
-%d attempts remaining."</string>
   <string name="pin_changed">PIN updated</string>
   <string name="pin_failed">PIN incorrect</string>
   <string name="pin_lock_warning">"
@@ -1192,6 +1187,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="sum_cfu_disabled">Disabled</string>
   <string name="sum_cfu_enabled">Forwarding all calls to {0}</string>
   <string name="sum_cfu_enabled_indicator">Forwarding all calls</string>
+  <string name="sum_cfu_enabled_indicator_by_sim">All calls to SIM %s will be forwarded</string>
   <string name="sum_cfu_enabled_no_number">Number is unavailable</string>
   <string name="sum_cw_disabled">During a call, notify me of incoming calls</string>
   <string name="sum_cw_enabled">During a call, notify me of incoming calls</string>
@@ -1266,6 +1262,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="time_start">From</string>
   <string name="time_start_hour">time start hour</string>
   <string name="time_start_minute">time start minute</string>
+  <string name="title_cfu_enabled">Call forwarding is on</string>
   <string name="to_hint">1111:to;sip:abby@example.com:bcc;sip:bill@example.com:cc;</string>
   <string name="transport">Protocol</string>
   <string name="transport_title">Transport type</string>
@@ -1319,6 +1316,9 @@ Contact your carrier if this problem persists."</string>
   <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
   <string name="voicemail_visual_voicemail_switch_title">Visual voicemail</string>
   <string name="voip_setting">VoIP settings</string>
+  <string name="volte_provision_notification_activate">Activate</string>
+  <string name="volte_provision_text">VoLTE calls provide better quality than regular calls. Send SMS to activate?</string>
+  <string name="volte_provision_title">Activate VoLTE calls</string>
   <string name="volte_switch_summary">Use VoLTE to improve voice and video call quality</string>
   <string name="volte_switch_title">VoLTE enabled</string>
   <string name="wait_prompt_str">"Send the following tones?

@@ -22,7 +22,7 @@
   <string name="error_open_file_failed_no_app_found">"Couldn't find an app to open this file"</string>
   <string name="frames">Frame rate</string>
   <string name="frames_summary">Higher frame rates reduce motion blur</string>
-  <string name="gleam_led_while_recording">Flash LED light while recording</string>
+  <string name="gleam_led_while_recording">Flash notification light while recording</string>
   <string name="hint_back">Back</string>
   <string name="hint_home">Home</string>
   <string name="hint_menu">Menu</string>
@@ -40,7 +40,7 @@
   <string name="memory_not_allowed">No available storage. Free up some storage to record.</string>
   <string name="mic_sound">Mic</string>
   <string name="no_recorder_info">No videos here</string>
-  <string name="no_recorder_info2">Tap the button to add a screen recording​</string>
+  <string name="no_recorder_info2">Tap the button to start recording</string>
   <string name="no_sound">Mute</string>
   <string name="operation_delete">Delete</string>
   <string name="operation_send">Send</string>

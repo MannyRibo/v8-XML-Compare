@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="accessibility_calllog_detail">Call history details</string>
+  <string name="accessibility_contact_detail">Contact detail</string>
   <string name="account_container_title">Imported from</string>
   <string name="account_default">Phone</string>
   <string name="account_phone">Phone-only, unsynced</string>
@@ -87,7 +88,9 @@
   <string name="call_radio">Call radio</string>
   <string name="call_record_setting_miui">Record settings</string>
   <string name="call_settings">Settings</string>
+  <string name="call_sim1_description">SIM 1</string>
   <string name="call_sim1_menu_title">Dial on SIM 1</string>
+  <string name="call_sim2_description">SIM 2</string>
   <string name="call_sim2_menu_title">Dial on SIM 2</string>
   <string name="call_sim_menu_title_suffix">(Primary)</string>
   <string name="call_telex">Call telex</string>
@@ -168,7 +171,7 @@
   <string name="clearFrequentsProgress_title">Clearing frequently contacted…</string>
   <string name="clear_copy_number_description">Clear copied number</string>
   <string name="clear_default">Clear default</string>
-  <string name="clear_digits">Clear phone number</string>
+  <string name="clear_digits">Delete phone number</string>
   <string name="click_close">Tap to close</string>
   <string name="clip_dialog_title">Dial copied number?</string>
   <string name="close_dial_pad_description">Close dial pad</string>
@@ -207,7 +210,8 @@
   <string name="contactPickerActivityTitle">Choose a contact</string>
   <string name="contactSavedErrorToast">"Couldn't save contact changes"</string>
   <string name="contactSavedToast">Contact saved</string>
-  <string name="contact_delete_toast">Contact deleted</string>
+  <string name="contact_clear_search_history">Clear history</string>
+  <string name="contact_delete_toast">Deleted contact successfully</string>
   <string name="contact_detail_action_item_calllog">Call history</string>
   <string name="contact_detail_action_item_nocalllog">No history</string>
   <string name="contact_detail_calllog_call_note_tips">Notes</string>
@@ -251,6 +255,7 @@ Contact cards are turned off"</string>
   <string name="contact_list_loading">Loading…</string>
   <string name="contact_pick_photo">Photo</string>
   <string name="contact_read_only">Not editable from this app.</string>
+  <string name="contact_search_history">History</string>
   <string name="contact_status_update_attribution">via %1$s</string>
   <string name="contact_status_update_attribution_with_date">%1$s via %2$s</string>
   <string name="contact_unfavorite_toast">Removed from favorites</string>
@@ -263,7 +268,7 @@ Contact cards are turned off"</string>
   <string name="contacts_setting_title">Contact settings</string>
   <string name="contacts_unavailable_add_account">Sign in to an account</string>
   <string name="contacts_unavailable_create_contact">Create a new contact</string>
-  <string name="contacts_unavailable_import_contacts">Import contacts from a file</string>
+  <string name="contacts_unavailable_import_contacts">Import from a file</string>
   <string name="convenient_service">Services</string>
   <string name="copy_number">Copy</string>
   <string name="copy_text">Copy to clipboard</string>
@@ -304,7 +309,10 @@ Contact cards are turned off"</string>
   <string name="description_add_contact">Add contact</string>
   <string name="description_call">Call %1$s</string>
   <string name="description_call_log_incoming_call">Incoming call</string>
+  <string name="description_call_log_incoming_forwarding_call">Incoming forwrading call</string>
   <string name="description_call_log_missed_call">Missed call</string>
+  <string name="description_call_log_missed_forwarding_call">Missed forwarding call</string>
+  <string name="description_call_log_new_contact">New contact</string>
   <string name="description_call_log_outgoing_call">Outgoing call</string>
   <string name="description_call_log_play_button">Play voicemail</string>
   <string name="description_call_log_unheard_voicemail">Unheard voicemail</string>
@@ -451,7 +459,7 @@ To avoid frequent queries, we update balance info once a day."</string>
   <string name="export_to_sim2">Export to SIM card 2</string>
   <string name="export_to_sim_prepare_title">Preparing…</string>
   <string name="export_to_sim_title">Exporting…</string>
-  <string name="export_vcard_description">"Export vCard to phone's internal storage"</string>
+  <string name="export_vcard_description">Export vCard to SD card</string>
   <string name="exporting_contact_failed_message">"The contact data wasn't exported.
 Reason: \"%s\""</string>
   <string name="exporting_contact_failed_title">"Couldn't export"</string>
@@ -471,7 +479,7 @@ Reason: \"%s\""</string>
   <string name="fail_reason_no_exportable_contact">There is no exportable contact.</string>
   <string name="fail_reason_not_supported">"The format isn't supported."</string>
   <string name="fail_reason_too_long_filename">Required filename is too long (\"%s\").</string>
-  <string name="fail_reason_too_many_vcard">Too many vCard files are in the storage.</string>
+  <string name="fail_reason_too_many_vcard">Too many vCard files are on the SD card.</string>
   <string name="fail_reason_unknown">Unknown error.</string>
   <string name="fail_reason_vcard_parse_error">"Couldn't parse vCard for an unexpected reason."</string>
   <string name="favoritesFrequentCalled">Frequently called</string>
@@ -533,7 +541,7 @@ Reason: \"%s\""</string>
   <string name="import_all_vcard_string">Import all vCard files</string>
   <string name="import_contact_card_aggregate_suggestion_button">Merge cards</string>
   <string name="import_contact_card_button">Import contact</string>
-  <string name="import_failure_no_vcard_file">No vCard files found in storage.</string>
+  <string name="import_failure_no_vcard_file">No vCard files found on SD card.</string>
   <string name="import_from_onekey_migrate">Import using Mi Mover</string>
   <string name="import_from_other_phone">Import from another phone</string>
   <string name="import_from_sdcard">Import from storage</string>
@@ -552,7 +560,7 @@ Reason: \"%s\""</string>
   <string name="import_to_xiaomi_account_progress_message">Importing…</string>
   <string name="import_to_xiaomi_account_progress_title">Import contacts to Mi Account</string>
   <string name="import_to_xiaomi_account_title">Import to Mi Account</string>
-  <string name="import_vcard_description">"Import contacts from your phone's internal storage"</string>
+  <string name="import_vcard_description">Import contacts from your SD card</string>
   <string name="import_vcard_dialog_message">Import vCard?</string>
   <string name="import_weibo_dialog_title">Import Weibo contacts</string>
   <string name="import_weibo_error_no_matched_contacts">No matching contacts</string>
@@ -713,6 +721,7 @@ Reason: \"%s\""</string>
   <string name="miprofile_nick_name_edit_dialog_hint">Enter nickname</string>
   <string name="miprofile_nick_name_edit_dialog_message">Nickname will appear in call history and profile info</string>
   <string name="miprofile_nick_name_edit_dialog_title">Edit nickname</string>
+  <string name="miprofile_notice_close">Close</string>
   <string name="miprofile_notice_text">"Tap to view contact's profile photo"</string>
   <string name="miprofile_request_agenda_date">This person wants to exchange cards [%1$s]</string>
   <string name="miprofile_request_agenda_today">This person wants to exchange cards [Today %1$s]</string>
@@ -845,7 +854,7 @@ To add a contact to your list of favorites:
   <string name="no_contacts_dialog_message">"Contacts may be stored on your SIM card. Try importing them from your SIM card to your phone's internal storage and then try again."</string>
   <string name="no_contacts_dialog_title">"Can't find contacts"</string>
   <string name="no_contacts_selected">No contacts selected.</string>
-  <string name="no_sdcard_message">No storage was found.</string>
+  <string name="no_sdcard_message">No SD card was found.</string>
   <string name="no_voip_contacts">No Mi Voice contacts</string>
   <string name="non_phone_add_to_contacts">Add to an existing contact</string>
   <string name="non_phone_caption">Phone number</string>
@@ -990,7 +999,10 @@ To add a contact to your list of favorites:
   <string name="preview_incall_show_entry">Preview video</string>
   <string name="previous">Previous</string>
   <string name="private_num">Private number</string>
+  <string name="profileSavedErrorToast">"Couldn't save my profile changes"</string>
+  <string name="profileSavedToast">Profile saved</string>
   <string name="profile_binded_numbers">%s</string>
+  <string name="profile_delete_toast">Deleted profile successfully</string>
   <string name="profile_display_name">Set up my profile</string>
   <string name="profile_name">My profile</string>
   <string name="profile_name_photo">Photo</string>
@@ -1062,7 +1074,7 @@ To add a contact to your list of favorites:
   <string name="scan_qrcode_card_hint1">Scan the QR code above</string>
   <string name="scan_qrcode_card_hint2"/>
   <string name="scanning_sdcard_failed_message">Reason: \"%s\".</string>
-  <string name="scanning_sdcard_failed_title">"The storage couldn't be scanned"</string>
+  <string name="scanning_sdcard_failed_title">"The SD card couldn't be scanned"</string>
   <string name="searchHint">Search contacts</string>
   <string name="search_batch_delete">Organize;Contacts</string>
   <string name="search_contacts_display">Contacts;Display</string>
@@ -1090,7 +1102,7 @@ To add a contact to your list of favorites:
   <string name="search_simple_mode">Display;info;photos;Contacts</string>
   <string name="search_smart_group_title">Contacts;Display</string>
   <string name="search_wipe_data">Organize;Contacts</string>
-  <string name="searching_vcard_message">Searching for vCard data in storage…</string>
+  <string name="searching_vcard_message">Searching for vCard data on SD card…</string>
   <string name="select_all">Select all</string>
   <string name="select_done">No more to select</string>
   <string name="select_groups">Select groups</string>
@@ -1143,7 +1155,7 @@ To add a contact to your list of favorites:
   <string name="sim_export_loading">Reading SIM card…</string>
   <string name="sim_indexed_contact_not_exist">Position %1$d on SIM card is invalid. Position must be between %2$d and %3$d.</string>
   <string name="sim_no_contact">No contacts on SIM card</string>
-  <string name="sim_unloaded">SIM card is unloaded</string>
+  <string name="sim_unloaded">"SIM card isn't installed"</string>
   <string name="sina_weibo">Sina Weibo</string>
   <string name="single_group_list_empty">No group members</string>
   <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>

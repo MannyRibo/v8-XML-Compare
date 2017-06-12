@@ -343,6 +343,7 @@
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
+        <item>2</item>
         <item>4</item>
         <item>5</item>
         <item>8</item>
@@ -368,12 +369,13 @@
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>2</item>
+        <item>2</item>
         <item>3</item>
         <item>3</item>
-        <item>15</item>
-        <item>15</item>
-        <item>15</item>
-        <item>15</item>
+        <item>6</item>
+        <item>11</item>
+        <item>14</item>
+        <item>20</item>
         <item>31</item>
         <item>39</item>
         <item>43</item>
@@ -560,9 +562,15 @@
         <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
         <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
         <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
+        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
         <item>/system/framework/arm64/boot.oat</item>
         <item>/system/framework/arm/boot.oat</item>
         <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/oat/arm/services.odex</item>
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
     </string-array>
     <string-array name="origin_carrier_names">
         <item>"CHINA  MOBILE"</item>
@@ -1164,6 +1172,17 @@
         <item>120</item>
         <item>255</item>
     </integer-array>
+    <string-array name="config_legacyPinnerServiceFiles">
+        <item>/data/dalvik-cache/arm64/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm/system@framework@boot.oat</item>
+        <item>/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex</item>
+        <item>/data/dalvik-cache/arm/system@framework@services.jar@classes.dex</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/oat/arm/services.odex</item>
+    </string-array>
+    <string-array name="config_appsToPin">
+        <item>com.tencent.mm</item>
+    </string-array>
     <array name="securespaces_extension_encryption_userRestrictions" />
     <array name="securespaces_extension_hidden_userRestrictions" />
 </resources>
